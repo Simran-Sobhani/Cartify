@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cartify</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html">Cartify</a>
+            </div>
+
+            <div class="main-nav">
+                <input type="text" placeholder="Search for products">
+                <div class="nav-links">
+                <a href="#section-index"><ion-icon name="home"></ion-icon></a>
+                <a href="#section-products"><ion-icon name="bag-handle"></ion-icon></a>
+                <a href="#section-about"><ion-icon name="help-circle"></ion-icon></a>
+                <a href="#section-cart"><ion-icon name="cart"></ion-icon></a>
+                <div><ion-icon name="person-circle-outline"></ion-icon></div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="section-products">
+            <div>
+                <h2>Categories</h2>
+                <div id="categories-section">
+                    <input type="text" placeholder="Search Categories">
+                    <div id="categories"></div>
+                </div>
+            </div>
+            <div>
+                <h2>Products</h2>
+                <div id="container">
+                </div>
+            </div>
+        </section>
+        <section id="section-cart">
+            <div>
+                <h2>Cart</h2>
+                <div id="cart">
+                </div>
+            </div>
+        </section>
+    </main>
+    </main>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
