@@ -83,7 +83,6 @@ fetch('https://fakestoreapiserver.reactbd.org/api/products')
           p[1].innerText = qty;
           console.log(p)
         }
-              //   } 
       });
       card.appendChild(img);
       card.appendChild(title);
